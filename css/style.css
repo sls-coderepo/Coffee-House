@@ -1,0 +1,64 @@
+
+body {
+    
+    background-image: url("../images/coffee.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    
+}
+
+header
+{
+    
+    color:burlywood;
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration-style: solid; 
+    text-transform: uppercase;
+    text-shadow: 2px 2px 2px rgb(136, 136, 136);
+    padding: 10px 0 25px 0;
+    
+}
+
+.list {
+    display: flex;
+    flex: auto;
+    flex-flow: row wrap;
+    justify-content: space-around;
+        
+}
+
+.list > .shop{
+    width: 30%;
+}
+
+.shop {
+
+   
+    border: 2px solid black;
+    border-radius: 8px;
+    border-collapse: separate;
+    border-spacing: 15px;
+    background-color:RGB(191, 191, 189);
+    text-align: center;
+    padding: 5px 0 5px 0;
+    margin-bottom: 10px;
+    
+}
+
+a:hover {
+    color: orange;
+}
+
+a {
+    text-decoration: none;
+}
+
+h3 {
+    color: black;
+    font-size: 20px;
+
+}
+
+
