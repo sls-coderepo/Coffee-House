@@ -1,25 +1,31 @@
 
 body {
-    
-    background-image: url("../images/coffee.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    
+    background-color: rgb(245, 243, 240);
+           
 }
 
 header
 {
-    
-    color:burlywood;
-    font-size: 50px;
+    border: 2px solid black;
+    border-radius: 8px;
+    background-color: rgb(58, 45, 45);
+    font-size: 60px;
     font-weight: bold;
+    color:rgb(212, 186, 151);
     text-align: center;
     text-decoration-style: solid; 
-    text-transform: uppercase;
     text-shadow: 2px 2px 2px rgb(136, 136, 136);
-    padding: 10px 0 25px 0;
+    padding: 25px 0 25px 0;
+    margin-bottom: 20px
+        
+}
+
+header > img {
+    width: 80px;
+    padding: 0 20px;
     
 }
+
 
 .list {
     display: flex;
@@ -34,16 +40,18 @@ header
 }
 
 .shop {
-
-   
-    border: 2px solid black;
+    border: 1px solid rgb(92, 91, 91);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     border-radius: 8px;
     border-collapse: separate;
     border-spacing: 15px;
-    background-color:RGB(191, 191, 189);
+    background-color:#cccccc;
     text-align: center;
-    padding: 5px 0 5px 0;
-    margin-bottom: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 20px;
+    font-size: 16px;
+    padding: 5px 5px;
+    margin-bottom: 30px;
     
 }
 
@@ -57,7 +65,7 @@ a {
 
 h3 {
     color: black;
-    font-size: 20px;
+    font-size: 22px;
 
 }
 
